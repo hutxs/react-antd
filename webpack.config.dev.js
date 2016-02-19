@@ -10,11 +10,15 @@ module.exports = {
     './src/entry/index'
   ],
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, './dist/'),
     //filename: 'bundle.js',
     filename: '[name].js',
     chunkFilename: '[id].chunk.js',
     publicPath: '/static/'
+  },
+  resolve: {
+   //modulesDirectories: ['node_modules', path.join(__dirname, '../node_modules')],
+    extensions: ['', '.js', '.jsx']
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

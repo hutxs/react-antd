@@ -48,7 +48,7 @@
     "eslint-plugin-react": "^3.11.3",
     "eventsource-polyfill": "^0.9.6",
     "expect.js": "~0.3.1",
-    "es3ify-loader":"^0.1.0",
+    "es3ify-loader": "^0.1.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "css-loader": "^0.23.0",
     "json-loader": "^0.5.1",
@@ -65,6 +65,7 @@
     "antd": "^0.12.1",
     "express": "^4.13.3",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react-dom": "^0.14.3",
+    "serve-favicon": "^2.3.0"
   }
 }
