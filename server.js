@@ -21,7 +21,7 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.all("/*", function(req, res){
   // 判断是否登录
 //  req.accepts('text/html');
-  res.render('index', { title: 'iconfig' });
+  res.render('index', { title: 'react' });
 });
 
 // app.get('*', function(req, res) {
